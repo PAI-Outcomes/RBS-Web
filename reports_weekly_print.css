@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h2 {font-size: 18px; margin: 0px; padding: 0px;}
+
+div#wrapper_weekly {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 600px;
+	font: 16px/21px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	z-index: 1;
+	}
+	
+.header {
+	width: 600px;
+	border: 0px;
+}
+
+.paddingtitle {
+	padding-left: 10px;
+	}
+	
+.reports-table {
+	width: 600px;
+	border: 1px solid #CCC; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+} 
+.reports-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+}
+.reports-table th {
+	color: #FFF;
+	font-weight: bold;
+}

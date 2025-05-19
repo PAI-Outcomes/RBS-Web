@@ -1,0 +1,70 @@
+body  {margin: 0px; padding: 0px; width: 100%; max-width: 100%;}
+
+#wrapper {
+	margin: 0 auto 0;
+	width: 600px;
+	}
+	
+.page {
+	width: 100%;
+	page-break-after: always;
+	clear: all;
+	}
+	
+.page_header {
+	width: 100%;
+	height: 40px;
+	background: #EEE;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	}
+	
+#header_text {
+	padding: 20px 40px 20px 40px;
+	}
+	
+.pharmacy_name {
+	float: left;
+	font-size: 18px;
+	font-weight:bold;
+	width: 33%;
+	text-align: left;
+	}
+
+.monthly_report {
+	float: left;
+	font-size: 18px;
+	font-weight:bold;
+	width: 34%;
+	text-align: center;
+	}
+	
+.report_date {
+	float: left;
+	font-size: 18px;
+	font-weight:bold;
+	width: 33%;
+	text-align: right;
+	}
+	
+	
+.mainchart {
+	width: 600px;
+	padding-bottom: 30px;
+	}
+	
+.table_charts {
+	width: 100%;
+	max-width: 100%;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+.chartsmall_left {
+	width: 300px;
+	}
+	
+.chartsmall_right {
+	width: 300px;
+	}
