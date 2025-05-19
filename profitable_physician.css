@@ -1,0 +1,19 @@
+/*
+thead {
+ background: #f6f0d5;
+}
+
+.container {
+  height:700px; 
+ overflow-y: scroll;
+ height:700px; 
+}
+*/
+
+td.noborder {
+  border-bottom:0px;
+}
+h1.rbsreporting {
+  font-size:32px; !important;
+}
+

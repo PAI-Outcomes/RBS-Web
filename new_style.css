@@ -1,0 +1,169 @@
+body {
+  margin: 0px;
+}	
+
+.header-block {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+}
+
+.rbsheader-block {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.rbsheader_logos {
+  display: inline-block;
+  height: 100px;
+  width: 70%;
+  float: left;
+}
+.rbsheader_logos2 {
+  display: inline-block;
+  height: 80px;
+  width: 55%;
+  float: center;
+  margin-left: 350px;
+}
+
+
+
+.main_logo {
+  height: auto;
+  max-width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondary_logo {
+  height: auto;
+  max-width: 20%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.header { 
+  border-top: 3px solid #5FC8ED
+}
+
+.pai-bg {
+ height: 700px;
+ width: 100%;
+ background-image: url("../images/CPPharm-1024x683.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-color: #ffffff;
+ opacity: 0.7;
+}
+
+.login {
+  position: relative;
+  height: auto;
+  width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;	
+  padding: 150px 0;
+  font-family: Arial;
+  z-index: 999;
+}
+
+.title {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14;
+  font-weight: bold;  
+}
+
+.textbox {
+  height:30px;
+  width:250px;
+  font-size:12pt;
+  font-weight: bold;    
+  color: #133562;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  border-color: #133562;
+}
+
+.button_login {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;	
+  background-color: #ffffff;
+  border: 1px solid #133562;
+  color: #133562;
+  padding: 5px 20px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 18px;
+  float: right;
+}
+
+.button_login:hover {
+  background-color: #133562;
+  color: white;
+}
+
+.footer {
+  background-color: #133562;
+  border: none;
+  height: 80px;
+  width: 100%;  
+}
+
+.subfooter {
+  background-color: #5FC8ED;
+  font-family: Arial;
+  font-size: 10pt;
+  border: none;
+  height: 35px;
+  width: 100%;  
+  color: #ffffff;
+}
+
+#footer-info {
+  padding: 10px 0 0 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.tbl_link {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;	
+  color: #000000;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid #133562;
+  text-decoration: none;
+}
+
+.tbl_link:hover {
+  color: white;	
+  background-color: #133562;  
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
+#login_error { 
+  padding: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: red;
+}
+.jqx-layout-group-auto-hide-content-vertical
+{
+    width: 200px;
+}

@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/*
+
+Josh Herder, March 2013.
+
+CSS Notes:
+-----------------------------------------------------
+For use with RBS enrollment process. Contains any additional styles that I didn't want to cram into the main stylesheet.
+-----------------------------------------------------
+
+*/
+
+.tab20 {
+	padding-left: 20px;
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+.fade {
+	color: #AAA;
+	margin: -15px 0px 15px 15px;
+}
+
+.error {
+	color: #F00;
+}
+
+.notice {
+	color: #F00;
+	font-size: 18px;
+}
+
+.download {
+	margin: 0px 0px 0px 20px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.programs {
+	width: 640px;
+}
+
+.tpp {
+	width: 150px;
+	background-color: #DDD;
+	font-weight: bold;
+}
+
+.plan {
+	background-color: #DDD;
+}
+
+.accept {
+	width: 160px;
+	background-color: #fccc40;
+}
+
+.review_page {
+	position: relative;
+	width: 630px;
+	height: 100%;
+	margin: 4px 4px 10px 4px;
+	padding: 8px;
+	border: 1px solid #133562;
+	border-radius: 5px;
+}
+
+.servicesbox {
+	position: relative;
+	width: 600px;
+	height: 100%;
+	margin: 4px 4px 10px 4px;
+	padding: 8px 8px 20px 8px;
+	border: 1px solid #133562;
+	border-radius: 5px;
+}
+
+.review_link {
+	position: relative;
+	float: right;
+}
+
+.review_page_title {
+	padding: 10px 0px 5px 0px;
+}
+
+.review_title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	margin: 0px 0px 5px 0px;
+	color:#133562;
+}
+
+.data {
+	margin: 0px 0px 5px 8px;
+	padding: 0px;
+	min-height: 15px;
+}
+
+.rbs-generic-wrapper {
+	position: relative;
+	width: 100%;
+	margin: 4px 10px 10px 10px;
+}
+
+/*Two Column Divs Layout*/
+.rbs-two-column-wrapper {
+	position: relative;
+	width: 100%;
+	margin: 4px 10px 10px 10px;
+}
+
+.rbs-two-column {
+	position: relative;
+	float: left;
+	width: 46%;
+	min-width: 250px;
+	padding: 0% 4% 0% 0%;
+}
+
+.rbs-two-column-small {
+	position: relative;
+	float: left;
+	width: 18%;
+	padding: 0% 4% 0% 0%;
+}
+
+.rbs-two-column-large {
+	position: relative;
+	float: left;
+	width: 70%;
+	padding: 0% 4% 0% 0%;
+}
+
+.field_title {
+	font-style: normal;
+	font-size: 16px;
+	margin: 0px 10px 5px 0px;
+	color:#133562;
+}
+
+.field_title_short {
+	display: inline-block;
+	font-style: normal;
+	font-size: 16px;
+	margin: 0px 10px 5px 0px;
+	width: 280px;
+	color:#133562;
+}
+
+.field_title_long {
+	display: inline;
+	font-style: normal;
+	font-size: 16px;
+	margin: 0px 10px 5px 0px;
+	color:#133562;
+}
+
+.rbs-comment {
+    margin: -10px 0px 25px 0px;
+}
+
+/* Text Inputs */
+.rbs-input-text-form {  
+	margin: 0px 0px 25px 0px;
+	padding: 7px;
+	border: 1px solid #133562;
+	width: 250px;
+
+	border-radius: 3px;  
+	box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.1);  
+}  
+
+.direct-input-text-form {  
+	margin: 0px 0px 25px 0px;
+	padding: 7px;
+	border: 1px solid #133562;
+	width: 200px;
+
+	border-radius: 3px;  
+	box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.1);  
+}  
+	  
+.rbs-input-text-form:focus {  
+	outline: none;  
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);  
+} 
+
+.rbs-dropdown-form {
+	padding: 7px;
+	margin: 0px 0px 25px 0px;
+	border: 1px solid #133562;	
+}
+
+.rbs-dropdown-form-sm {
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #133562;	
+}
+
+.rbs-dropdown-nospace-form {
+	padding: 7px;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #133562;	
+}
+
+.clear {
+	position: relative;
+	clear: both;
+}
+
+.checkbox {
+	float: left;
+	padding: 5px 0px 0px 0px;
+	border: 1px solid #133562;	
+}
+
+.checkboxcopy {
+	float: left;
+	padding: 0px 0px 0px 10px;
+	border: 1px solid #133562;	
+}
+
+.button-form-enroll {
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #133562;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #ddd;
+    color: #133562;
+    display: inline-block;
+    font-size: 18px;
+    height: 35px;
+    margin: 15px 0 10px;
+    padding: 5px 14px;
+	min-width: 200px;
+}
+
+.button-form-direct {
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #133562;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #ddd;
+    color: #133562;
+    display: inline-block;
+    font-size: 14px;
+    height: 25px;
+    margin: 5px 0 5px;
+    padding: 0px 0px;
+    min-width: 70px;
+}
+
+
+
+#mainbody_front {
+    float: left;
+    margin-top: 0;
+    padding: 15px 5px 15px 22px;
+    position: relative;
+    text-align: left;
+    width: 650px;
+    z-index: 3;
+}
+
+#sidebarWrapper {
+    float: right;
+    margin: 8px 10px 10px 0;
+    min-height: 350px;
+    position: relative;
+    width: 190px;
+}
+#sidebar {
+    border-left: 1px dotted #ccc;
+    margin: 0;
+    min-height: 350px;
+    padding: 10px 0 0 12px;
+    position: relative;
+    top: 0;
+    width: 190px;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 10px;
+}
+
+
+#errors {
+	color: #F00;
+	font-weight: 700;
+}
+
+
+.small_example {
+	font-size: 9px; 
+	color: #777;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Stay on top */
+  top: 0px; /* Stay at the top */
+  left: 0;
+  background-color: #FFFFFF; /* White*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 32px;
+  margin-left: 40px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .header {
+  padding: 8px 8px 8px 32px;
+  font-size: 32px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .finishbtn {
+  padding: 8px 8px 8px 32px;
+  font-size: 32px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
